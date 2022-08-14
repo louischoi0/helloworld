@@ -47,7 +47,7 @@ body {
   font-weight: 400;
   line-height: 1.5;
   color: #212529;
-  background-color: #fff;
+  background-color: black;
   -webkit-text-size-adjust: 100%;
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0); }
 
@@ -9190,6 +9190,7 @@ textarea {
 .secion-1 {
   padding-bottom: 2rem;
   padding-top: 7rem;
+  height: 90vh;
   position: relative; }
   .secion-1 .heading {
     color: #fff;
@@ -9233,7 +9234,6 @@ textarea {
 
 .section-2 .contents {
   padding: 30px;
-  background-color: #fff;
   padding-bottom: 0px;
   padding-top: 0px;
   border-radius: 4px; }
@@ -9336,10 +9336,10 @@ textarea {
 .pricing {
   text-align: center;
   padding: 40px;
-  border: 2px solid rgba(16, 73, 92, 0.1);
+  border: 2px solid #f2ad5f;
   border-radius: 7px; }
   .pricing.active {
-    border: 2px solid #000; }
+    border: 2px solid #f2ad5f; }
   .pricing h2, .pricing .h2 {
     font-size: 18px;
     font-weight: bold; }
